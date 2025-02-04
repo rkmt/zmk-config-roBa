@@ -103,6 +103,8 @@
 &kp EXCLAMATION  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL  &trans      &trans  &kp PLUS        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SINGLE_QUOTE   &kp SEMICOLON
 &kp CARET        &kp GRAVE        &trans           &trans           &trans     &trans      &trans  &trans                                                                          &kp PIPE
             >;
+
+            sensor-bindings = <&scroll_up_down>;
         };
 
         ARROW {
@@ -113,7 +115,7 @@
 &kp C_VOLUME_DOWN  &kp C_VOLUME_UP         &kp K_MUTE      &trans                   &trans   &trans      &trans  &trans                                            &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         FUNCTION {
@@ -123,6 +125,8 @@
 &trans  &kp F1  &kp F2  &kp F3  &kp F12  &trans      &trans  &kp F12  &kp F3  &kp F2  &kp F1  &trans
 &trans  &trans  &trans  &trans  &trans   &trans      &trans  &trans                           &trans
             >;
+
+            sensor-bindings = <&scroll_up_down>;
         };
 
         MOUSE {
