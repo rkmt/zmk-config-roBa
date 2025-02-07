@@ -47,6 +47,11 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        screenshot {
+            bindings = <&kp LG(DOLLAR)>;
+            key-positions = <38 41>;
+        };
     };
 
     macros {
