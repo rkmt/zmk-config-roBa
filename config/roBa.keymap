@@ -48,9 +48,14 @@
             key-positions = <24 25>;
         };
 
+        emoji {
+            bindings = <&kp LG(LC(SPACE))>;
+            key-positions = <38 41>;
+        };
+
         screenshot {
             bindings = <&kp LG(DOLLAR)>;
-            key-positions = <38 41>;
+            key-positions = <39 40>;
         };
     };
 
