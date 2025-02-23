@@ -103,7 +103,7 @@
 &lt 3 ESC           &kp AMPERSAND  &mt LEFT_ALT AT  &mt LEFT_COMMAND TAB  &lt 1 LANGUAGE_2  &lt 2 LANGUAGE_1      &lt 2 BACKSPACE  &lt 1 SPACE                             &lt 3 BACKSLASH
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
         NUM {
