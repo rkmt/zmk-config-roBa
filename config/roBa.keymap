@@ -118,10 +118,10 @@
 
         ARROW {
             bindings = <
-&trans             &kp HOME         &kp UP_ARROW    &kp END          &kp PAGE_UP                                   &kp PAGE_UP    &kp HOME        &kp UP_ARROW  &kp END    &kp C_AC_SCROLL_UP
-&trans             &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &trans      &kp K_SCROLL_UP    &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp C_AC_SCROLL_DOWN
-&trans             &trans           &trans          &trans           &trans         &trans      &kp K_SCROLL_DOWN  &trans         &mkp MB1        &mkp MB3      &mkp MB2   &trans
-&kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE      &trans           &trans         &trans      &trans             &trans                                                  &trans
+&trans             &kp HOME         &kp UP_ARROW    &kp END          &kp PAGE_UP                                       &kp PAGE_UP    &kp HOME        &kp UP_ARROW  &kp END    &kp C_AC_SCROLL_UP
+&trans             &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &trans          &kp C_VOLUME_UP    &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp C_AC_SCROLL_DOWN
+&trans             &trans           &trans          &trans           &trans         &kp K_MUTE      &kp C_VOLUME_DOWN  &trans         &mkp MB1        &mkp MB3      &mkp MB2   &trans
+&kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE      &trans           &trans         &trans          &trans             &trans                                                  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
