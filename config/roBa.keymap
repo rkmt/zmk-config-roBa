@@ -113,7 +113,7 @@
 &kp LG(TAB)  &kp CARET     &kp N0  &trans  &trans     &trans           &trans  &trans                                                                          &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         ARROW {
@@ -124,7 +124,7 @@
 &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE      &trans           &trans         &trans      &trans             &trans                                                  &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         FUNCTION {
