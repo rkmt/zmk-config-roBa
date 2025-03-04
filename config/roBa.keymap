@@ -113,7 +113,7 @@
 &kp LG(TAB)  &kp CARET     &kp N0  &trans  &trans     &trans           &trans  &trans                                                                          &kp PIPE
             >;
 
-            sensor-bindings = <&inc_dec_kp LG(MINUS) LG(MINUS)>;
+            sensor-bindings = <&inc_dec_kp LG(MINUS) LG(PLUS)>;
         };
 
         ARROW {
